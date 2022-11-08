@@ -25,12 +25,14 @@ public class Calculator extends VBox implements EventHandler<ActionEvent>{
 		super(10);
 		this.displayText = new Text();
 
+
 		Rectangle rt = new Rectangle(250, 50, Color.TRANSPARENT);
 
 		rt.setStroke(Color.GRAY);
 
 		StackPane sp =  new StackPane(rt, this.displayText);
 
+		
 		sp.setPadding(new Insets(10, 10, 10, 10));
 
 		GridPane gd = new GridPane();
