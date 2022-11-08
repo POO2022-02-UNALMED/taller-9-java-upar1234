@@ -32,7 +32,7 @@ public class Calculator extends VBox implements EventHandler<ActionEvent>{
 
 		StackPane sp =  new StackPane(rt, this.displayText);
 
-		
+
 		sp.setPadding(new Insets(10, 10, 10, 10));
 
 		GridPane gd = new GridPane();
